@@ -45,10 +45,12 @@ while True:
     run=mastermind()
     run.main()
     a=input("Do you want to play again?(y,n) ")
-    if a in list("yes") or a in list("YES"):
+    if a in ["YES","yes","y"]:
         continue
-    elif a in list("no") or a in list("NO"):
+    elif a in ["NO","No","n"]:
         break
+    
+            
     
                 
                 
