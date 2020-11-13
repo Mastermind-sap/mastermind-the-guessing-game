@@ -45,9 +45,9 @@ while True:
     run=mastermind()
     run.main()
     a=input("Do you want to play again?(y,n) ")
-    if a in ["YES","yes","y","Y"]:
+    if a in ["YES","yes","y","Y","Yes"]:
         continue
-    elif a in ["NO","No","n", "N"]:
+    elif a in ["NO","No","n", "N","no"]:
         break
     
             
